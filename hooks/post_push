@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set -e
+
+# Parse image name for repo name
+tagStart=$(expr index "$IMAGE_NAME" :)
+repoName=${IMAGE_NAME:0:tagStart-1}
+tagName=${IMAGE_NAME:tagStart}
+
+version=${tagName//./ }
+
+major=$(echo $version | awk '{print $1}')
+minor=$(echo $version | awk '{print $2}')
+patch=$(echo $version | awk '{print $3}')
+
+docker tag $IMAGE_NAME ${repoName}:${major}.${minor}
+docker push ${repoName}:${major}.${minor}
+
+docker tag $IMAGE_NAME ${repoName}:${major}
+docker push ${repoName}:${major}
+
+docker tag $IMAGE_NAME ${repoName}:latest
+docker push ${repoName}:latest
