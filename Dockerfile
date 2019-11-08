@@ -3,7 +3,7 @@ FROM openjdk:11-jre-stretch
 LABEL maintainer="gmantaos@gmail.com"
 
 # obtain at: http://d.defold.com/stable/info.json
-ENV DEFOLD_VERSION 1.2.89
+ENV DEFOLD_VERSION 1.2.164
 ENV DEFOLD_VERSION_SHA1 13261949f45c333806c8aac8bd5b08124ca2810f
 
 # copy shortcut scripts
