@@ -17,4 +17,4 @@ RUN curl -o /usr/local/bin/bob.jar http://d.defold.com/archive/${DEFOLD_VERSION_
 RUN curl -o /usr/local/bin/dmengine_headless http://d.defold.com/archive/${DEFOLD_VERSION_SHA1}/engine/x86_64-linux/dmengine_headless \
     && chmod +x /usr/local/bin/dmengine_headless
 
-CMD [ "bob" ]
+CMD [ "bob",  "build" ]

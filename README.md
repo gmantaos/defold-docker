@@ -5,6 +5,11 @@
 [![](https://images.microbadger.com/badges/version/gmantaos/defold.svg)](https://hub.docker.com/r/gmantaos/defold)
 ==========
 
+Basic image on top of `openjdk:11-jre-stretch`, with the following two executables present in PATH:
+
+- bob
+- dmengine_headless
+
 ## Usage
 
 Intended use is for CI build environments.
