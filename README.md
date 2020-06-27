@@ -28,4 +28,4 @@ build:
 | Variable | Value |
 | -------- | ----- |
 | DEFOLD_VERSION | `1.2.170` |
-| DEFOLD_VERSION_SHA1 | `a6a088b1dfc1e67a13121bacd8cfca1b668c31c0` |
+| DEFOLD_VERSION_SHA1 | `5791ee6d96b87e50eee5acd70abaa4026fefef28` |
