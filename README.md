@@ -27,5 +27,5 @@ build:
 
 | Variable | Value |
 | -------- | ----- |
-| DEFOLD_VERSION | `1.2.170` |
-| DEFOLD_VERSION_SHA1 | `5791ee6d96b87e50eee5acd70abaa4026fefef28` |
+| DEFOLD_VERSION | `1.2.176` |
+| DEFOLD_VERSION_SHA1 | `7107bc8781535e83cbb30734b32d6b32a3039cd0` |
